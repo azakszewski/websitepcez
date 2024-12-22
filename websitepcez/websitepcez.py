@@ -11,7 +11,7 @@ class State(rx.State):
     ...
 
 class TextfieldControlled(rx.State):
-    text: str = "Hello World!"
+    text: str = "Find my PC!"
     
     @rx.event
     def on_key_up(self, event):
